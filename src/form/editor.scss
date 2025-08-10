@@ -1,0 +1,24 @@
+.wp-block-create-block-form {
+	border: 1px dotted #f00;
+}
+
+.form-block {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	background-color: #0073aa;
+
+	input,
+	textarea {
+		padding: 10px;
+		border: 1px solid #ddd;
+	}
+
+	button {
+		background: #0073aa;
+		color: white;
+		padding: 10px;
+		border: none;
+		cursor: pointer;
+	}
+}
